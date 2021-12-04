@@ -1,0 +1,425 @@
+/* Font Be Vienam ---- Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+/*Mobile First - width 375  */
+
+/* Basic Settups  */
+html{
+    min-width: 500px;
+    background: #FFFFFF;
+}
+body{
+    font-family: 'Be Vietnam Pro', serif;
+    min-width: 500px;
+    box-sizing:border-box;
+}
+/* Header  */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 5px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header > *{
+    margin-top: 40px;
+}
+header img{
+    left: 0;
+    height: 28px;
+}
+/* Font Awesome Icon  */
+.fa .fa-bars{
+    font-size: 23px;
+}
+.fa-bars:hover{
+    color:#ffffff;
+    background-color: rgb(242, 95, 58);
+    padding:3px;
+    border-radius: 3px;
+}
+.get-btn{
+    display: flex;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+/* Main Nav */
+.mainmenue{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left:0;
+    margin-right:0;
+}
+/* NAV background */
+.btn-opt{
+    height: 50px;
+    border:none;
+    min-width: 390px;
+    background-color: #ffffff;
+    border-bottom: rgb(78 108 147 / 49%) solid .01px;
+    border-right: rgb(78 108 147 / 49%) solid .01px;
+    margin: 3px -14px 3px 3px;
+}
+.btn-opt:hover{
+    background-color: rgb(242, 95, 58);    
+}
+/* NAV Text */
+.btn-opt .opt {
+    text-decoration: none;
+    color: #242E52;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.opt:hover{
+color:#ffffff;
+}
+/* Get Started Btn */
+.start {
+    margin-top:20px;
+    background-color:rgb(242, 95, 58);
+    box-shadow: rgba(35, 44, 81, 0.082);
+    border:none;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+}   
+
+.start a {
+    text-decoration: none;
+    color:#ffffff;
+}
+header .start{
+    width: 150px;
+    height: 50px;
+}
+.start:hover, footer button:hover{
+    background-color: #242E52;
+    box-shadow: 0px 4px 2px rgba(241, 136, 38, .5);
+    color:rgb(242, 95, 58);
+}
+ /*** Main ****/
+main{
+    min-width: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:30px;
+}
+ /* Introduction */
+ .info-block > *, .information > *{
+    margin-left: 20px;
+    width: 441px;
+ }
+.info-block h1{
+    font-size: 2.3em;
+    font-weight: 700;
+    color:#242E52;
+    line-height: 44.47px;
+}
+
+
+.info-block p, .info-intro :nth-child(2){
+    line-height: 22px;
+    width: 340px;
+}
+/* IMG Intro */
+ #img-intro{
+    background-image: url(img/illustration-intro.svg);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+    height: 441px;
+    min-width: 441px;
+ }
+ .intro-text button{
+    margin:30px 0;
+ }
+ /******* Information */
+
+ .info-intro :nth-child(1){
+    font-size: 1.8em;
+    width: 350px;
+    font-weight: bold;
+    color:#242E52;
+    line-height: 44px;
+}
+
+ .info-intro :nth-child(2){
+    font-style: normal;
+    font-size: 1em;
+    line-height: 22px;
+ }
+ /* Testimonials list */
+ .li-deco h3, h2{
+    color: #323851;
+ }
+ .li-deco p, .person p{
+    color: #B3B2B7;
+ }
+/* Lists Markers Image  */
+ul.points li:nth-child(1){
+    list-style:none;
+}
+ul.points li:nth-child(2){
+    list-style:none;
+}
+
+ul.points li:nth-child(3){
+    list-style:none;
+}
+li.li-deco {
+    list-style-position: inside;
+    margin: 50px -10px;
+    width: 350px;
+}
+/* Testimonies */
+.testimony {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.person{
+    width: 377px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 27px 0;
+}
+.testimony h2{
+font-size: 2em;
+}
+.testimony p{
+    text-align: center;
+}
+/* Banner */
+.banner{
+    margin-top:100px;
+    width: 520px;
+    height: 224px;
+    background-color:rgb(242, 95, 58);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+h2.white{
+    color:#FFFFFF;
+    font-size: 1.9em;
+    margin:30px;
+}
+button.wt{
+    background-color: #FFFFFF;
+}
+button.wt a{
+    color:rgb(242, 95, 58);
+}
+/* Footer */
+footer{
+    background-color:#1E1E26;
+    color:#FFFFFF;
+    height: 515px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.ft{
+    height: 211px;
+    margin-top: 40px;
+}
+.ft a{
+    text-decoration: none;
+}
+.ft a:hover{
+    filter: invert(18%) sepia(7%) saturate(4373%) hue-rotate(190deg) brightness(93%) contrast(97%);
+}
+footer div:nth-of-type(1){
+    width: 150px;
+    text-align: center;
+    line-height: 43px;
+}
+.topics{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content:space-between;
+}
+.topics a{
+    text-decoration: none;
+    color:white;
+}
+/* Footer Search Button */
+.email p {
+    color:#8C8C94;
+    font-size: smaller;
+}
+footer button{
+    background-color: rgb(242, 95, 58);
+    border-radius: 50px;
+    width: 63px;
+    height: 42px;
+    border:none;
+    margin-left: 10px;
+}
+footer button a{
+    text-decoration: none;
+    color:#FFFFFF;
+    text-align: center;
+}
+#email-btn{
+    width: 201px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    height: 38px;
+}
+#email-btn:hover{
+    border:rgb(242, 95, 58) 2px solid;
+}
+
+/* RESPONSIVE */
+@media (min-width: 500px) {
+    body{
+        height: 2326px;
+        width: 1263px;
+        margin:0;
+    }
+    section{
+        width: 1024px;
+        margin-left: 0 auto;
+    }
+    header{
+        width: 1024px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+    }
+    i.fa-bars{
+        display: none;
+    }
+    .mainmenue{
+        flex-direction: row;
+        width: 512px;   
+        background-color: #ffffff;
+    }
+    .btn-opt{
+        min-width: 100px;
+        margin: 0 3px;
+        border:none;
+    }
+    .get-btn{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .start{
+        margin-top:0;
+    }
+    main{
+        top:50px;
+        width: auto;
+        position:unset;
+        justify-content: none;
+    }
+    section.info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.info-block{
+        width: 1200px;
+        display: flex;
+        margin-top:50px;
+        justify-content: space-around;
+    }
+    section.information{
+        width: 1024px;
+        display: flex;
+        justify-content: space-around;
+    }
+    li.li-deco {
+        width: 449px;
+        transition: 1s;
+    }
+    .info-block > *, .information > * {
+        margin-left: 0px;
+        width: 471px;
+    }
+    ul.points{
+        padding-left: 0px;
+    }
+    .testimony{
+        width: auto;
+    }
+    .testimony h2 {
+        text-align: center;
+        width: 1024px;
+    }
+    .testimony{
+            width: 1253px;
+            margin: 0 auto;
+    }
+    .banner,footer{
+        margin-left: -1%;
+        width: 1276px;
+    }
+    .topics{
+        margin-left: 79px;
+    }
+    .email p {
+        margin-top: 114px;
+    }
+    .banner{
+        align-items: center;
+        justify-content: space-around;
+    }
+    ul.points li:nth-child(1),ul.points li:nth-child(2),ul.points li:nth-child(3) {
+        list-style-image: none;
+        color: #ffffff;
+    }
+    img.list{
+        display: block;
+        position: relative;
+        left: -79px;
+        top: 54px;
+    }
+    footer{
+        flex-wrap: wrap;
+        height: 250px;
+    }
+    .ft {
+        margin-top: 6px;
+    }
+    h2.white{
+        width:407px;
+    }
+    div.person{
+        padding-top:30px;
+        transition: 1s;
+        margin-left: 20px;
+    }
+    div.person:hover{
+        box-shadow: rgb(242, 95, 58) 1px 1px 0.8px 0.7px;
+        border-radius: 3%;
+        transform:scale(1.2);
+        background-color: rgba(35, 44, 81, 0.9);
+        filter:contrast(1.2) brightness(103%);  
+    }
+    img.logo-ft {
+        margin-top: 18px;
+        margin-bottom: 103px;
+    }
+    .ft.email {
+        margin-top: 22px;
+    }
+    li.li-deco:hover {
+        transform: translateX(-95px) scale(1) translate(10px, 12px);
+    }
+
+}  
